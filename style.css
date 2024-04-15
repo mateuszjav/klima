@@ -1,0 +1,91 @@
+* {
+    font-family: "Lato", sans-serif;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.home {
+    position: relative;
+    display: inline-block;
+}
+
+.home::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+    pointer-events: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    color: white;
+    z-index: 3;
+    text-transform: uppercase;
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .7rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-weight: 700;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 15px;
+    padding: .6rem 1.3rem;
+    font-size: 1.5rem;
+}
+
+.offers {
+    padding-top: 3rem;
+    font-size: 50px;
+}
+
+.row h2 {
+    font-weight: 700;
+}
+
+.card-body h3 {
+    letter-spacing: 2px;
+}
+
+.lead {
+    font-weight: 400;
+}
+
+.models {
+    padding-top: 3rem;
+}
